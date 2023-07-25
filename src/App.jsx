@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Footer from "home/Footer";
 import Header from "home/Header";
+import Card from "home/Card";
 import "./index.scss";
 
 const App = () => (
@@ -15,6 +16,7 @@ const App = () => (
       />
       <h5 class="text-xl font-medium leading-tight mb-2">John Doe</h5>
       <p class="text-gray-500">Web designer</p>
+      <Card />
     </div>
     <Footer />
   </div>                                                                                                                                                                                                                             
